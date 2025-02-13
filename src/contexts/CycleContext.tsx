@@ -67,7 +67,6 @@ export function CyclesContextProvider({ children }: CyclesProviderProps) {
         setCycles(state => [...state, newCycle]);
         setActiveCycleId(newCycle.id);
         setAmountSecondsPassed(0);
-        //form.reset();
     }
 
     function interrupCycle() {
